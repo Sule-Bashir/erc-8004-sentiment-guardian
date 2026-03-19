@@ -1,0 +1,10 @@
+🤖 Just completed my AI Trading Agent for @krakenfx @lablabai @Surgexyz_ hackathon!
+
+✅ 327 autonomous trades executed
+✅ Ensemble ML: MA + RSI + Momentum
+✅ Risk management with 60% confidence
+✅ ERC-8004 identity layer
+
+Current PnL:  USD
+
+#AITradingAgents #Kraken #ERC8004 #lablabai
