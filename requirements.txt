@@ -1,0 +1,10 @@
+# Dependencies for ML enhancement
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (minimal)
+numpy>=1.21.0
+
+# For real sentiment API (optional - uncomment if needed)
+# requests>=2.28.0
+# tweepy>=4.14.0  # For Twitter API
+# textblob>=0.17.0  # For NLP sentiment
