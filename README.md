@@ -7,7 +7,7 @@ Self-regulating AI trading agent with ERC-8004 - Hackathon Submission
 [![ERC-8004](https://img.shields.io/badge/ERC-8004-orange)](https://eips.ethereum.org/EIPS/eip-8004)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> **🏆 Autonomous AI Trading Agent | 327+ Paper Trades Executed | Ensemble ML Strategy | ERC-8004 Trust Layer**
+> **🏆 Autonomous AI Trading Agent | 327+ Paper Trades Executed | Ensemble ML Strategy | ERC-8004 Truost Layer**
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -300,8 +300,28 @@ https://www.loom.com/share/506260bf3b7949b4ad32544623d302d0
 - [x] Trade intents with EIP-712
 - [x] Validation artifacts
 - [x] Reputation tracking
+## 🤖 ML Enhancement (Standalone Demo)
 
-### Hackathon Submission
+In addition to the working trading agent, this repository includes `ml_sentiment.py` - a machine learning enhancement that demonstrates how sentiment analysis would improve trading decisions.
+
+### Features:
+- Real-time market data from Kraken CLI
+- Technical indicators (MA, RSI, Momentum)
+- ML sentiment analysis (news + social)
+- Confidence scoring
+- Comparison with rule-based decisions
+
+### Run the demo:
+```bash
+# Install dependencies (optional - uses only Python stdlib)
+pip install -r requirements.txt
+
+# Run single analysis
+python3 ml_sentiment.py
+
+# Run continuous monitoring (checks every 60 seconds)
+python3 ml_sentiment.py --monitor 60
+Hackathon Submission
 
 - [x] GitHub repository
 - [x] Demo video (pending upload)
